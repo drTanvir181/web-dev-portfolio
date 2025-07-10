@@ -12,7 +12,8 @@
 
 nav{display: flex;
 align-items: center;
-justify-content: space-between;}
+justify-content: space-between;
+margin: 0 35px 0 230px;}
 
 .nav-title{font-weight: 800;
  font-size: 45px;
@@ -32,3 +33,19 @@ border: none;
 padding: 18px 35px;
 font-size: 20px;
 font-weight: bold;}
+
+.banner{display: flex;
+justify-content: space-between;
+margin: 0 35px 0 230px;}
+.banner-content{max-width: 580px;}
+.banner-greeting{font-weight: 600;
+font-size: 50px;}
+.banner-title{font-weight: bold;
+font-size: 85px;}
+.banner-description{font-size: 18px;
+color: #757575;}
+.banner-profile-pic{width: 580px;}
+
+.header{background-image: url(../images/developer.png),url(../images/header_bg.png);
+background-repeat: no-repeat;
+background-position: top left,bottom right;}
