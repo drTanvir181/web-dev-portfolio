@@ -9,6 +9,7 @@
 }
 .text-primary{color: #FD6E0A;}
 .dark-2{color:#474747}
+.text-center{text-align: center;}
 
 nav{display: flex;
 align-items: center;
@@ -78,3 +79,12 @@ gap: 24px;margin-top: 50px;}
 .skill{padding: 33px;
       box-shadow: 0 6px 50px 0 rgba(0, 0, 0,0.06);
     border-radius: 5px;}
+    /* resume column styles */
+    .resume-container{display: flex;
+    gap: 24px;}
+    .experience-description{color: #757575;}
+    .experience-subtitle{font-size: 20px;
+                          font-weight: 600;
+                        color:#757575;}
+    .resume hr{margin: 30px 5px;}                   
+    .resume-download-cv{margin-top: 50px;}
